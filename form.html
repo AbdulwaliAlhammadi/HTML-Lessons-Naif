@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <a href="test.html">index page</a>
+    <h1>Html Forms</h1>
+    <form action="" method="post">
+        <label for="username">username</label>
+        <br>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">password</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="email">email</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <input type="hidden" name="token" id="">
+        <br>
+        <div>
+            <input type="radio" name="car" id="car1" checked>
+            <label for="car1">car1</label>
+            <br>
+            <input type="radio" name="car" id="car2">
+            <label for="car2">car2</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="lang" id="lang1">
+            <label for="lang1">English</label>
+            <input type="checkbox" name="lang" id="lang2">
+            <label for="lang2">Arabic</label>
+        </div>
+        <br>
+        <div>
+            <h4>Select One Value</h4>
+            <label for="laptop">choose a laptop</label>
+            <select name="laptop" id="laptop">
+            <option value="dell">dell</option>
+            <option value="apple">apple</option>
+            <option value="hp">hp</option>
+            </select>
+        </div>
+        <div>
+            <h4>Select One Value</h4>
+            <label for="laptop1">choose a laptop</label>
+            <select name="laptop1" id="laptop1" multiple>
+            <option value="dell">dell</option>
+            <option value="apple">apple</option>
+            <option value="hp">hp</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="comment">comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="search-id">search</label>
+            <input type="search" name="search" id="search-id">
+        </div>
+        <br>
+        <div>
+            <label for="search-id2">disabled</label>
+            <input type="search" name="search" id="search-id2" disabled value="https://google.com">
+        </div>
+        <br>
+        <input type="date" name="date1" id="date1">
+        <br>
+        <input type="datetime" name="datetime1" id="datetime1">
+        <br>
+        <input type="datetime-local" name="dtl" id="dtl">
+        <br>
+        <input type="time" name="time" id="time">
+        <br>
+        <div>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option id="b1" value="b1">Firefox</option>
+                <option id="b2" value="b2">Chrome</option>
+                <option id="b3" value="b3">Safari</option>
+            </datalist>
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <a href="testcss.html">go to testcss</a>
+    </form>
+</body>
+</html>
